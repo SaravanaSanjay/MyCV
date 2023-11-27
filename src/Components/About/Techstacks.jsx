@@ -1,9 +1,7 @@
 import React from "react";
 import "./Techstacks.css";
 import { FaReact, FaNodeJs, FaCloudsmith } from "react-icons/fa";
-import {
-  SiHtml5
-} from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript, SiPhp, SiMongodb, SiPython } from "react-icons/si";
 import { BsBootstrap, BsGlobe } from "react-icons/bs";
