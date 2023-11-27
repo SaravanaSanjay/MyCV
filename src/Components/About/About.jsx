@@ -12,6 +12,7 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
+    <section  id='#home'>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Saravana Sanjay</span>
@@ -85,6 +86,7 @@ export const About = () => {
       <Timeline />
       <section id="#skills">
         <Techstacks />
+      </section>
       </section>
     </>
   );

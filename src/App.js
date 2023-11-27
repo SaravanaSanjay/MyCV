@@ -16,10 +16,11 @@ export default function App() {
   }, []);
   return (
     <div id="top" className={`${themename} app`}>
+      <main>
+        
       <section id="#home">
         <Header />
       </section>
-      <main>
         <About />
         <section id="#projects">
           <Projects />
