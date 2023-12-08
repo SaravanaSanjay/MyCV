@@ -5,6 +5,8 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import Image from "./../../assets/S-logo.png";
+
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -19,10 +21,17 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="center nav">
+    <nav className="nav">
+      <div className="navbrand">
+        <a href="#home" className="link">
+          <img src={Image} alt="logo" />
+          <span className="brandname">Sanjay</span>
+        </a>
+      </div>
+      <div className="center menulist nav">
         <ul
-          style={{ display: showNavList ? "flex" : null }}
-          className="nav__list"
+          style={{ display: showNavList ? "flex" : null}}
+          className="nav__list "
         >
           <li className="nav__list-item">
             <a
@@ -35,7 +44,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="#about"
+              href="#aboutme"
               onClick={() => toggleNavList("#about")}
               className="link link--nav"
             >
@@ -81,24 +90,27 @@ export const Navbar = () => {
             </a>
           </li>
         </ul>
+        <div className="actionbutton">
         <button
-          type="button"
-          onClick={toggeltheme}
-          className="btn btn--icon nav__theme"
-          aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
-        >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-        </button>
-        <button
-          type="button"
-          onClick={toggleNavList}
-          className="btn btn--icon nav__hamburger"
-          aria-label="toggle navigation"
-        >
-          {showNavList ? <CloseIcon /> : <MenuIcon />}
-        </button>
-      </nav>
+            type="button"
+            onClick={toggeltheme}
+            className="btn btn--icon nav__theme"
+            aria-label="toggle theme"
+            style={{ backgroundColor: "inherit" }}
+          >
+            {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+          </button>
+          <button
+            type="button"
+            onClick={toggleNavList}
+            className="btn btn--icon nav__hamburger"
+            aria-label="toggle navigation"
+          >
+            {showNavList ? <CloseIcon /> : <MenuIcon />}
+          </button>
+        </div>
+      </div>
+    </nav>
     </>
   );
 };

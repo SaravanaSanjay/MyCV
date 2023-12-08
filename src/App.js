@@ -15,20 +15,19 @@ export default function App() {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div id="top" className={`${themename} app`}>
-      <main>
-        
+    <div id="top" className={`${themename} app`}>        
       <section id="#home">
         <Header />
       </section>
+      <section id="#aboutme">
         <About />
-        <section id="#projects">
-          <Projects />
-        </section>
-        <section id="#contact">
-          <Contact />
-        </section>
-      </main>
+      </section>
+      <section id="#projects">
+        <Projects />
+      </section>
+      <section id="#contact">
+        <Contact />
+      </section>
       <Footer />
       <ScrollToTop />
     </div>

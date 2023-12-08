@@ -12,7 +12,7 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-    <section  id='#home'>
+    <section  id='home'>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Saravana Sanjay</span>
@@ -21,7 +21,7 @@ export const About = () => {
         <p className="about__desc" data-aos="fade-right">
           Passionate and creative Full Stack Developer. Attired with a variety of tools & technologies and keen to
           learn new one. Worked on wordpress since last 3 months and delivered
-          2 projects till now.
+          3 projects till now.
         </p>
         <div className="about__contact center">
           <a

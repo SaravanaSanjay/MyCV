@@ -10,14 +10,14 @@ export const Header = () => {
   return (
     <>
       <header className={"header center " + themename}>
-        <h3>
+        {/* <h3>
           <a href="#home" className="link">
             <span>
               <img src={Image} alt="logo" />
             </span>
             Sanjay
           </a>
-        </h3>
+        </h3> */}
         <Navbar />
       </header>
     </>
