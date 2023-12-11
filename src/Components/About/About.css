@@ -44,6 +44,12 @@
   color: var(--clr-bg);
 }
 
+@media (max-width: 280px) {
+  .mobileHead{
+    font-size: xxx-large;
+  }
+}
+
 @media (max-width: 600px) {
   .mobileHead{
     align-content: center;

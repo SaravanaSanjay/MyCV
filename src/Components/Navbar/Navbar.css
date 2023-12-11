@@ -21,7 +21,7 @@ nav{
 .nav__theme {
   margin-top: 0.4em;
 }
-@media (max-width: 426px) {
+@media (max-width: 605px) {
   .nav__list {
     display: none;
     flex-direction: column;
