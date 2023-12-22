@@ -4,7 +4,8 @@ import Miniproject from "./../../assets/MiniProject.png";
 import Finalproject from "./../../assets/Finalproject.png";
 import Landingpage from "./../../assets/Landingpage.png";
 import Portfolio from "./../../assets/portfolio.png";
-
+import Portfolio_2 from "./../../assets/Portfolio_2.jpeg";
+import Companysite from "./../../assets/Companysite.jpeg";
 import { FaReact} from "react-icons/fa";
 import {
   SiHtml5,
@@ -138,6 +139,95 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/SaravanaSanjay/React.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={Portfolio_2}
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Portfolio</h2>
+                <p>
+                Absolutely! A portfolio functions as a carefully curated compilation of your accomplishments, showcasing your skills, experience, and expertise. Whether for personal or professional purposes, it acts as a visual and informational representation, allowing you to effectively communicate your abilities to prospective employers, clients, or collaborators.
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiNodedotjs />
+                  <FaReact />
+                </div>
+                <div>
+                  <a
+                    href="https://saravanasanjay.github.io/MyCV/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/SaravanaSanjay/MyCV"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={Companysite}
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Company Landing Page</h2>
+                <p>
+                  Crafted with HTML, CSS, Bootstrap, and React.js, our company's website seamlessly blends sleek design with cutting-edge technology. Explore for a visually appealing and engaging user experience. 
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiBootstrap />
+                  <SiNodedotjs />
+                  <FaReact />
+                </div>
+                <div>
+                  <a
+                    href="https://saravanasanjay.github.io/React/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/SaravanaSanjay/OnFleek_Web"
                     target="_blank"
                     rel="noreferrer"
                   >
