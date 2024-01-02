@@ -33,7 +33,7 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
+            date={"Sept 2023 - Till Now"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
