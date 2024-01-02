@@ -44,6 +44,9 @@ export const Contact = () => {
             <a href="tel:+919444972272" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
+            <a href="https://www.instagram.com/__saravana_sanjay__/" target="_blank" rel="noreferrer">
+              <BsInstagram className="insta" />
+            </a>
           </div>
           <div className="mailNumber" data-aos="fade-right">
             <div>

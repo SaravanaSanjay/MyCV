@@ -9,13 +9,16 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+
 export const About = () => {
   return (
     <>
     <section  id='home'>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Saravana Sanjay</span>
+          Hello, I am <span className="about__name">
+            Saravana Sanjay
+            </span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
@@ -91,3 +94,4 @@ export const About = () => {
     </>
   );
 };
+export default About;

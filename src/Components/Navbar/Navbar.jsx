@@ -6,18 +6,24 @@ import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import Image from "./../../assets/S-logo.png";
+// import App from "../../App";
 
 
-export const Navbar = () => {
+export const Navbar = ({ onEditButtonClick }) => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
 
   const toggleNavList = (id) => {
-    var element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView();
+    if (id === "edit") {
+      onEditButtonClick();
+      setShowNavList(false);
+    } else {
+      var element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView();
+      }
+      setShowNavList(!showNavList);
     }
-    setShowNavList(!showNavList);
   };
   return (
     <>
@@ -89,6 +95,17 @@ export const Navbar = () => {
               Resume
             </a>
           </li>
+          <li className="nav__list-item">
+          <button
+            onClick={() => {
+              toggleNavList("edit");
+              onEditButtonClick();
+            }}
+            className="link link--nav"
+          >
+            Edit
+          </button>
+        </li>
         </ul>
         <div className="actionbutton">
         <button

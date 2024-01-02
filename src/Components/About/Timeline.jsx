@@ -64,8 +64,8 @@ export const Timeline = () => {
               ON-Fleek Media and Techologies PVT. Ltd.(TN)
             </h4>
             <p data-aos="fade-right">
-              Started in Sept 2023 and delivered 2 Projects on wordpress,
-              HTML, CSS, Nodejs and React till oct 2023.
+              Started in Sept 2023 and delivered 4 Projects on 
+              HTML, CSS, BootStrap, Nodejs and React till oct 2023.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

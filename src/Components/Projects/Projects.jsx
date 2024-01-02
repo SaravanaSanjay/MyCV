@@ -163,7 +163,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Portfolio</h2>
                 <p>
-                Absolutely! A portfolio functions as a carefully curated compilation of your accomplishments, showcasing your skills, experience, and expertise. Whether for personal or professional purposes, it acts as a visual and informational representation, allowing you to effectively communicate your abilities to prospective employers, clients, or collaborators.
+                  Absolutely! A portfolio functions as a carefully curated compilation of your accomplishments, showcasing your skills, experience, and expertise. Whether for personal or professional purposes, it acts as a visual and informational representation, allowing you to effectively communicate your abilities to prospective employers, clients, or collaborators.
                 </p>
                 <div>
                   <SiHtml5 />
