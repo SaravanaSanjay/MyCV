@@ -14,8 +14,7 @@ export const Navbar = ({ onEditButtonClick }) => {
   const [showNavList, setShowNavList] = React.useState(false);
 
   const toggleNavList = (id) => {
-    if (id === "edit") {
-      onEditButtonClick();
+    if (id === "") {
       setShowNavList(false);
     } else {
       var element = document.getElementById(id);
@@ -95,17 +94,6 @@ export const Navbar = ({ onEditButtonClick }) => {
               Resume
             </a>
           </li>
-          <li className="nav__list-item">
-          <button
-            onClick={() => {
-              toggleNavList("edit");
-              onEditButtonClick();
-            }}
-            className="link link--nav"
-          >
-            Edit
-          </button>
-        </li>
         </ul>
         <div className="actionbutton">
         <button
